@@ -1,0 +1,18 @@
+[user]
+  name = R. Nsinga
+  email = bobuntu@ceable.com
+[core]
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+[color]
+  ui = true
+[push]
+  default = upstream
+[branch]
+  autosetuprebase = always
+[alias]
+  co = checkout
+  lg = log --graph --pretty=format:'%Cblue%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold red)<%an>%Creset' --abbrev-commit --date=relative
+[diff]
+  renamelimit = 2000
+  
