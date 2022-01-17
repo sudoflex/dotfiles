@@ -5,7 +5,7 @@
 export ZSH="/Users/bolide/.oh-my-zsh"
 
 # Set name of the theme to load
-ZSH_THEME="ceable"
+ZSH_THEME="sudoflex"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -31,3 +31,9 @@ autoload -U compinit && compinit
 
 # Brew PATH precedence request
 export PATH="/usr/local/sbin:$PATH"
+
+# Flutter @Nov21
+export PATH="$PATH:/Users/<user-ID>/sdk/flutter/bin"
+
+# Android SDK path
+export ANDROID_HOME=/Users/<user-ID>/sdk/android
