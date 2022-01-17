@@ -1,19 +1,43 @@
 {
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
-    "redhat.telemetry.enabled": false,
+    "cmake.configureOnOpen": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "testMate.cpp.log.userId": "bce868f1fa48b4a2beba55bd6d1e2e90407b2f33",
+    "C_Cpp.clang_format_fallbackStyle": "Chromium",
+    "C_Cpp.clang_format_style": "Google",
+    "todo.embedded.providers.ag.regex": "(?:#|// @|//|/\\*+|<!--|--|\\* @|\\{!|\\{\\{!--|\\{\\{!) *(TODO|FIXME|HACK|NOTE|IDEA|REVIEW|OPTIMIZE)",
+    "todo.embedded.providers.rg.regex": "(?:#|// @|//|/\\*+|<!--|--|\\* @|\\{!|\\{\\{!--|\\{\\{!) *(TODO|FIXME|HACK|NOTE|IDEA|REVIEW|OPTIMIZE)",
+    "todo.embedded.regex": "(?:<!-- *)?(?:#|// @|//|/\\*+|<!--|--|\\* @|\\{!|\\{\\{!--|\\{\\{!) *(TODO|FIXME|HACK|NOTE|IDEA|REVIEW|OPTIMIZE)(?:\\s*\\([^)]+\\))?:?(?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|\\{!|\\{\\{!--|\\{\\{!))|((?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|\\{!|\\{\\{!--|\\{\\{!))|(?: +[^@\\n]+)?))",
+    "todo.file.defaultContent": "Todo:  ☐ Task",
+    "testMate.cpp.log.logSentry": "enable",
+    "todo.file.include": [
+        "**/*.TODO",
+        "**/*.TODOS"
+    ],
+    "todo.file.name": ".TODO",
+    "git.autofetch": true,
+    "notebook.output.textLineLimit": 80,
+    "jupyter.askForKernelRestart": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.wordWrapColumn": 120,
     "editor.inlineSuggest.enabled": true,
+    "redhat.telemetry.enabled": false,
+    "profileSwitcher.profiles": [
+        "CPP"
+    ],
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "yaml": false,
         "plaintext": false,
         "markdown": false
     },
-    "workbench.colorTheme": "One Dark Pro",
-    "editor.tabSize": 2,
-    "C_Cpp.clang_format_style": "Google",
-    "C_Cpp.clang_format_fallbackStyle": "LLVM",
-    "terminal.integrated.fontFamily": "monospace",
-    "terminal.integrated.fontSize": 14,
-    "editor.wordWrap": "on"
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.suggestionActions.enabled": false
 }

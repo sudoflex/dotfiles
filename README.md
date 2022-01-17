@@ -1,16 +1,15 @@
 # sudoflex/dotfiles
-Keeping my macOS laptop environments synched.
+Keeping my Ubuntu NUC environment synched.
 
 ### Contents
 
 ```bash
 ~/dotfiles
-├── .oh-my-zsh/themes
-│   └── sudoflex.zsh-theme
 ├── .vscode
 │   ├── extensions.json
 │   └── zeutings.json
-├── .zshrc
+├── .inputrc
+├── .bashrc
 ├── .gitignore
 ├── gitconfig
 ├── LICENSE
