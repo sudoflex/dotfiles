@@ -1,7 +1,21 @@
 # sudoflex/dotfiles
-Keeping all my working environments in sync.
+Keeping my macOS laptop environments synched.
 
-Please checkout any branch to reveal more.
+### Contents
+
+```bash
+~/dotfiles
+├── .oh-my-zsh/themes
+│   └── sudoflex.zsh-theme
+├── .vscode
+│   ├── extensions.json
+│   └── zeutings.json
+├── .zshrc
+├── .gitignore
+├── gitconfig
+├── LICENSE
+└── README.md
+```
 
 ### LICENSE
 
